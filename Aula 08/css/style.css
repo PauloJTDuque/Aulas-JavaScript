@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#container header {
+  padding: 50px;
+  font-family: arial;
+}
+#container main {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#container main div {
+  width: 32%;
+  height: auto;
+  margin: 5px;
+}
+#container main div img {
+  width: 100%;
+}
